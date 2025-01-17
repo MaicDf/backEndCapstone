@@ -19,4 +19,4 @@ class Menu(models.Model):
     inventory = models.IntegerField()  # Inventory count with integer constraint
 
     def __str__(self):
-        return f"{self.title} - ${self.price}"
+        return f"{self.title} : ${self.price}"
